@@ -1,0 +1,19 @@
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.img {
+    /*flex: 0 0 calc(25% - 20px);*/
+    flex 0 1 auto;
+    margin: 10px;
+}
+img {
+    border: 1px solid black;
+    /*width: 95%;*/
+    width: 100px;
+}
+button {
+    margin: 10px;
+    color: white;
+    background-color: green;
+}

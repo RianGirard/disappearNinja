@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Disappear Ninja!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div class="img">
+                <img src="ninja.jpg" alt="ninja" id="img1">
+            </div>
+            <div class="img">
+                <img src="ninja.jpg" alt="ninja" id="img2">
+            </div>
+            <div class="img">
+                <img src="ninja.jpg" alt="ninja" id="img3">
+            </div>
+            <div class="img">
+                <img src="ninja.jpg" alt="ninja" id="img4">
+            </div>
+            <div class="img">
+                <img src="ninja.jpg" alt="ninja" id="img5">
+            </div>
+            <div class="img">
+                <img src="ninja.jpg" alt="ninja" id="img6">
+            </div>
+            <div class="img">
+                <img src="ninja.jpg" alt="ninja" id="img7">
+            </div>
+            <div class="img">
+                <img src="ninja.jpg" alt="ninja" id="img8">
+            </div>
+        </div>
+        <div>
+            <button>Restore</button>
+        </div>
+        <script>
+            $(function() {
+                $('#img1').click(function(){
+                    $('#img1').hide( "slow" );
+                });
+                $('#img2').click(function(){
+                    $('#img2').hide( "slow" );
+                });
+                $('#img3').click(function(){
+                    $('#img3').hide( "slow" );
+                });
+                $('#img4').click(function(){
+                    $('#img4').hide( "slow" );
+                });
+                $('#img5').click(function(){
+                    $('#img5').hide( "slow" );
+                });
+                $('#img6').click(function(){
+                    $('#img6').hide( "slow" );
+                });
+                $('#img7').click(function(){
+                    $('#img7').hide( "slow" );
+                });
+                $('#img8').click(function(){
+                    $('#img8').hide( "slow" );
+                });
+                $('button').click(function(){
+                    location.reload();
+                });
+            });
+        </script>
+    </body>
+</html>
